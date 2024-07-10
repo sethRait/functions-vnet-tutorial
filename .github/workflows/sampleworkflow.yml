@@ -16,7 +16,7 @@ jobs:
           python-version: '3.8'
         
       - name: Run MSDO
-        uses: microsoft/security-devops-action@serait/checkCallerIsOnboarded
+        uses: serait/security-devops-action@serait/checkCallerIsOnboarded
         id: msdo
         with:
           tools: container-mapping
